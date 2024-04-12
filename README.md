@@ -7,7 +7,7 @@ Pip for Python package installation
 
 ## Setting up database:
 Download and unzip the file  
-Create a new database and name it at your convenience
+Create a new database and name it at your convenience  
 Copy the DDL query code to make up the table  
 Copy the DML query code to insert sample data  
 
@@ -22,12 +22,10 @@ After setting up PostgreSQL start with our system!
    Choose options in the menu to use the system  
 
 
-
-
-
-
 ## Execution notes (Please read before using the system):
-For the classes, the trainer must select a day and a class and then send it to the staff, staff on their side choose the scheduled time on the selected date and book the room. The member’s page has the final scheduled class time and date. Therefore, members can view and book classes. When the member books a class, the class will not appear on the available class list until the member cancels the class. For the dashboard display menu, the member will only get their exercise routines, fitness achievements, and health statistics after they finish taking the classes. The DML code inserted into the database includes three trainers, three staff, and two members(Assume the trainer and staff already know their ID). When trainer wants to find a member, they must know the member’s name to see their profile(The member must update their profile with their name). 
+For the classes, the trainer must select a day and a class and then send it to the staff, staff on their side choose the scheduled time on the selected date and book the room. The member’s page has the final scheduled class time and date. Therefore, members can view and book classes. When the member books a class, the class will not appear on the available class list until the member cancels the class.   
+
+For the dashboard display menu, the member will only get their exercise routines, fitness achievements, and health statistics after they finish taking the classes. The DML code inserted into the database includes three trainers, three staff, and two members(Assume the trainer and staff already know their ID). When trainer wants to find a member, they must know the member’s name to see their profile(The member must update their profile with their name). 
 
 
 ## Files:
@@ -60,7 +58,7 @@ Manages booking of rooms for gym activities.
 trainer_management.py:
 Allows trainers to set schedules and view member info.
 
-Authors: 
+### Authors: 
 Ziyi Jiang 101266200
 Zhimei Li 101258414
 Yoli Li 101284913
