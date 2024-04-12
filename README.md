@@ -1,24 +1,30 @@
 # COMP3005-Final-Project
-Welcome to the Fitness Management System! This application is designed to streamline the operations of fitness centers and gyms by automating member management, class scheduling, maintenance tracking, and billing processes.
-## Prerequisites
-Python 3.8 or higher
-PostgreSQL
-Pip for Python package installation
+Welcome to the Fitness Management System! This is a Python application that utilizes a PostgreSQL database. It is designed to streamline the operations of fitness centers and gyms by automating member management, class scheduling, maintenance tracking, and billing processes.
+## Prerequisites:
+Python 3.8 or higher  
+PostgreSQL  
+Pip for Python package installation  
+
+## Setting up database:
+Download and unzip the file  
+Create a new database and name it at your convenience
+Copy the DDL query code to make up the table  
+Copy the DML query code to insert sample data  
+
 ## Execution commands:
-unzip the file
-*Ensure PostgreSQL is installed and running on your system.
-Create a new database and name it at your convenience.
-Copy the DDL query code to make up the table.
-Copy the DML query code to insert sample data.
-After setting up PostgreSQL start with our system!
-Enter database name: the name must be identical to the database name you have created
-Enter your username and password for Postgres
-Choose options in the menu to use the system
+After setting up PostgreSQL start with our system!  
+1. Open it via Pycharm or any other IDE by importing the project.   
+2. *Then enter in the command line: pip install psycopg2-binary  
+3. Run and executing the "main_menu.py"
+4. Enter in the command line:  
+   Enter database name: the name must be identical to the database name you have created  
+   Enter your username and password for Postgres  
+   Choose options in the menu to use the system  
 
-*Download python if you don't have it
-*Then enter in the command line: pip install psycopg2-binary
 
-This is a Python application that utilizes a PostgreSQL database. You can run it via Pycharm or any other IDE by importing the project and executing the "main_menu.py". 
+
+
+
 
 ## Execution notes (Please read before using the system):
 For the classes, the trainer must select a day and a class and then send it to the staff, staff on their side choose the scheduled time on the selected date and book the room. The member’s page has the final scheduled class time and date. Therefore, members can view and book classes. When the member books a class, the class will not appear on the available class list until the member cancels the class. For the dashboard display menu, the member will only get their exercise routines, fitness achievements, and health statistics after they finish taking the classes. The DML code inserted into the database includes three trainers, three staff, and two members(Assume the trainer and staff already know their ID). When trainer wants to find a member, they must know the member’s name to see their profile(The member must update their profile with their name). 
