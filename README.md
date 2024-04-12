@@ -1,10 +1,10 @@
 # COMP3005-Final-Project
 Welcome to the Fitness Management System! This application is designed to streamline the operations of fitness centers and gyms by automating member management, class scheduling, maintenance tracking, and billing processes.
-Prerequisites
+## Prerequisites
 Python 3.8 or higher
 PostgreSQL
 Pip for Python package installation
-Execution commands:
+## Execution commands:
 unzip the file
 *Ensure PostgreSQL is installed and running on your system.
 Create a new database and name it at your convenience.
@@ -20,11 +20,11 @@ Choose options in the menu to use the system
 
 This is a Python application that utilizes a PostgreSQL database. You can run it via Pycharm or any other IDE by importing the project and executing the "main_menu.py". 
 
-Execution notes (Please read before using the system):
+## Execution notes (Please read before using the system):
 For the classes, the trainer must select a day and a class and then send it to the staff, staff on their side choose the scheduled time on the selected date and book the room. The member’s page has the final scheduled class time and date. Therefore, members can view and book classes. When the member books a class, the class will not appear on the available class list until the member cancels the class. For the dashboard display menu, the member will only get their exercise routines, fitness achievements, and health statistics after they finish taking the classes. The DML code inserted into the database includes three trainers, three staff, and two members(Assume the trainer and staff already know their ID). When trainer wants to find a member, they must know the member’s name to see their profile(The member must update their profile with their name). 
 
 
-Files:
+## Files:
 Create_database_DDL.sql:
 A SQL script with commands to create the gym management system’s database structure, including tables and constraints.
 Sample_data_DML.sql:
