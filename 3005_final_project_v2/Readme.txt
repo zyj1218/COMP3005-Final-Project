@@ -26,12 +26,6 @@ Execution notes (Please read before using the system):
 For the classes, the trainer must select a day and a class and then send it to the staff, staff on their side choose the scheduled time on the selected date and book the room. The member’s page has the final scheduled class time and date. Therefore, members can view and book classes. When the member books a class, the class will not appear on the available class list until the member cancels the class. For the dashboard display menu, the member will only get their exercise routines, fitness achievements, and health statistics after they finish taking the classes. The DML code inserted into the database includes three trainers, three staff, and two members(Assume the trainer and staff already know their ID). When trainer wants to find a member, they must know the member’s name to see their profile(The member must update their profile with their name). 
 
 
-
-
-
-
-
-
 Files:
 Create_database_DDL.sql:
 * A SQL script with commands to create the gym management system’s database structure, including tables and constraints.
@@ -41,8 +35,6 @@ ER Model: ER-diagram(JPG format):
 * An image showing the entity-relationship model, which outlines the database entities and their relationships.
 Relational Schema: Relational_database_Schema(JPG format)
 * A visual schema detailing the tables, columns, and relationships within the database.
-
-
 
 
 Implementation files:
