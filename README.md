@@ -23,9 +23,18 @@ After setting up PostgreSQL start with our system!
 
 
 ## Execution notes (Please read before using the system):
-For the classes, the trainer must select a day and a class and then send it to the staff, staff on their side choose the scheduled time on the selected date and book the room. The member’s page has the final scheduled class time and date. Therefore, members can view and book classes. When the member books a class, the class will not appear on the available class list until the member cancels the class.   
-
-For the dashboard display menu, the member will only get their exercise routines, fitness achievements, and health statistics after they finish taking the classes. 
+Training Class Creating and Booking Logic:  
+1. Trainers are required to select one or more dates available in the upcoming week, specify the name of the class, and determine preference class type(group/personal). This information is then forwarded to the staff;
+2. Staffs on their side choose the exact start time and end time for this session on the trainer's selected available date, also can decide the class type(group/personal);  
+3. Members can view and book all the available classes by select "Book a class" in the menu, the availability of classes is as follows:
+    
+   >If the class type is personal, and has already been booked by another member, it will not be visible in the list of available classes;    
+   If the class type is group(with a maximum of 5 members), and is fully booked, it will not be visible in the list of available classes;
+   
+5. Once a member successfully books a class, that class will no longer appear in their list of available classes until the member cancels the class.
+   
+Dashboard display menu:  
+The member will only get their exercise routines, fitness achievements, and health statistics after they finish taking the classes. 
 
 
 ## Files:
