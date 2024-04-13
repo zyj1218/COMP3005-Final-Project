@@ -68,6 +68,6 @@ trainer_management.py:
 Allows trainers to set schedules and view member info.  
 
 ## Authors: 
-Ziyi Jiang 101266200
-Zhimei Li 101258414
-Yoli Li 101284913
+Ziyi Jiang 101266200  
+Zhimei Li 101258414  
+Yoli Li 101284913  
