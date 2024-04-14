@@ -1,4 +1,6 @@
 ﻿Welcome to the Fitness Management System! This application is designed to streamline the operations of fitness centers and gyms by automating member management, class scheduling, maintenance tracking, and billing processes.
+Video link
+[https://youtu.be/i99Vwrvu7oo](https://youtu.be/i99Vwrvu7oo)
 Prerequisites
 * Python 3.8 or higher
 * PostgreSQL
